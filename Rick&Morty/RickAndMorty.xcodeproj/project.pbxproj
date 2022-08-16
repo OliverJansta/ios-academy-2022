@@ -66,6 +66,8 @@
 		ADFF7117282D64E60050FF20 /* OnFirstAppearViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF7114282D64E60050FF20 /* OnFirstAppearViewModifier.swift */; };
 		ADFF711A282D66A10050FF20 /* ProvidedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF7119282D66A10050FF20 /* ProvidedData.swift */; };
 		C10117B624DD751800EBAE2B /* ViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10117B424DD751800EBAE2B /* ViewControllerCoordinator.swift */; };
+		E629805C28A63C700017274F /* EpisodeRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629805B28A63C700017274F /* EpisodeRowItemView.swift */; };
+		E629805E28A6400B0017274F /* EpisodeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629805D28A6400B0017274F /* EpisodeListView.swift */; };
 		FF496885288FCCBA00D53859 /* LocationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF496884288FCCBA00D53859 /* LocationsListViewController.swift */; };
 		FF496887288FCD4D00D53859 /* LocationsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF496886288FCD4D00D53859 /* LocationsListViewController.storyboard */; };
 		FF49688F288FD74500D53859 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF49688E288FD74500D53859 /* SDWebImageSwiftUI */; };
@@ -171,6 +173,8 @@
 		C10117B424DD751800EBAE2B /* ViewControllerCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinator.swift; sourceTree = "<group>"; };
 		C15A8EBD23069EEA00F7FCA8 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		C15A8EBE23069EEA00F7FCA8 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		E629805B28A63C700017274F /* EpisodeRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeRowItemView.swift; sourceTree = "<group>"; };
+		E629805D28A6400B0017274F /* EpisodeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListView.swift; sourceTree = "<group>"; };
 		E66CA9C678BBFB2FB20700AB /* Pods-defaults-RickAndMorty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RickAndMorty.release.xcconfig"; path = "Target Support Files/Pods-defaults-RickAndMorty/Pods-defaults-RickAndMorty.release.xcconfig"; sourceTree = "<group>"; };
 		EE002A2ABA22F80FE0641884 /* Pods-defaults-RickAndMorty.production-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-RickAndMorty.production-release.xcconfig"; path = "Target Support Files/Pods-defaults-RickAndMorty/Pods-defaults-RickAndMorty.production-release.xcconfig"; sourceTree = "<group>"; };
 		EF0271AE2491299A008CE976 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
@@ -480,6 +484,7 @@
 		8FD9268828998BDD00C59893 /* Episodes */ = {
 			isa = PBXGroup;
 			children = (
+				E629805A28A63C380017274F /* EpisodeList */,
 				8FD9268A28998BEB00C59893 /* Coordinator */,
 			);
 			path = Episodes;
@@ -619,6 +624,15 @@
 				ADFF70CE282D61480050FF20 /* Satoshi.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E629805A28A63C380017274F /* EpisodeList */ = {
+			isa = PBXGroup;
+			children = (
+				E629805B28A63C700017274F /* EpisodeRowItemView.swift */,
+				E629805D28A6400B0017274F /* EpisodeListView.swift */,
+			);
+			path = EpisodeList;
 			sourceTree = "<group>";
 		};
 		FF496888288FD05C00D53859 /* Location Detail */ = {
@@ -868,6 +882,7 @@
 				AD5D11D528368DAB004F7774 /* Image+App.swift in Sources */,
 				59DE635628A2C0B0002F8510 /* CharacterRowItemView.swift in Sources */,
 				27FAC43F2479D452002F2A33 /* AppCoordinating.swift in Sources */,
+				E629805E28A6400B0017274F /* EpisodeListView.swift in Sources */,
 				8FD9268E28998C0500C59893 /* EpisodesCoordinator.swift in Sources */,
 				AD5D11B228354122004F7774 /* UILabel+DynamicFont.swift in Sources */,
 				27FAC45F2479D452002F2A33 /* ManagerRegistration.swift in Sources */,
@@ -885,6 +900,7 @@
 				8FD9268C28998BFC00C59893 /* CharactersCoordinator.swift in Sources */,
 				FFD1EEAD28995BAE0096A79C /* LocationDetailInfoCell.swift in Sources */,
 				ADFF70AE282D5A1F0050FF20 /* TabBarCoordinator.swift in Sources */,
+				E629805C28A63C700017274F /* EpisodeRowItemView.swift in Sources */,
 				AD5D11B8283541C1004F7774 /* NibLoadableView.swift in Sources */,
 				ADFF7111282D648E0050FF20 /* WebRenderingView.swift in Sources */,
 				FFD1EEAF28995BAE0096A79C /* LocationDetailResidentCell.swift in Sources */,
